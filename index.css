@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Resets */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* variables */
+
+:root {
+  --header-bg-color: #fef7ff;
+  --primary-color: #554BBC;
+  --secondary-color: #474553;
+  --purple: #7C73E6;
+  --section-color: #F8F1FC;
+  --heading-font: "Roboto", sans-serif;
+  --paragraph-font: "Open Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+}
+
+p,a {
+  font-family: var(--paragraph-font);
+}
+
+/* navigation stayling */
+
+.navbar {
+
+  background-color: var(--header-bg-color);
+}
+
+#logo {
+  color: var(--primary-color);
+}
+
+.btn-highlight {
+  background: var(--purple);
+  color: #fff;
+  padding: .9em 1.5em;
+  border-radius: .5em;
+  boder: none;
+  text-decoration: none;
+}
+
+.btn-highlight:hover {
+  color: var(--secondary-color);
+  background-color: #fff;
+  outline: 1px solid black;
+  transition: all .2s ease-in;
+}
+
+/*landing section*/
+.highlight {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.hero-txt {
+  font-weight: 300;
+}
+
+.btn-download {
+  outline: none;
+  border: none;
+}
+
+/* project section */
+#projects {
+  background-color: var(--section-color);
+}
+
+/* contact section */
+#contact {
+  background-color: var(--section-color);
+}
+
+/* footer */
+.footer-logo {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.footer-job {
+  font-weight: 100;
+  font-size: .9rem;
+}
